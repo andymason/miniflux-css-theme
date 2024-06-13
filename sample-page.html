@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sample page - Miniflux</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Miniflux">
+
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="referrer" content="no-referrer">
+    <meta name="google" content="notranslate">
+
+    <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#fff" media="(prefers-color-scheme: dark)">
+
+    <link rel="stylesheet" type="text/css" href="src/original-css/common.css">
+    <link rel="stylesheet" type="text/css" href="src/original-css/system.css">
+    <link rel="stylesheet" type="text/css" href="src/custom.css">
+
+
+</head>
+
+<body data-add-subscription-url="/subscribe" data-entries-status-url="/entry/status"
+    data-refresh-all-feeds-url="/feeds/refresh">
+
+
+    <a class="skip-to-content-link" href="#main">Skip to content</a>
+    <header class="header">
+        <nav>
+            <div class="logo" data-toggle-button-label="Menu">
+                <a aria-label="Home page" href="/unread">
+                    Mini<span>flux</span>
+                </a>
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708">
+                    </path>
+                </svg>
+            </div>
+            <ul id="header-menu">
+                <li class="active" title="Keyboard Shortcut: g u">
+                    <a href="/unread" data-page="unread" aria-label="Unread, 43 unread entries">
+                        Unread
+
+                        <span class="unread-counter-wrapper" aria-hidden="true">(<span
+                                class="unread-counter">43</span>)</span>
+
+                    </a>
+                </li>
+                <li title="Keyboard Shortcut: g b">
+                    <a href="/starred" data-page="starred">Starred</a>
+                </li>
+                <li title="Keyboard Shortcut: g h">
+                    <a href="/history" data-page="history">History</a>
+                </li>
+                <li title="Keyboard Shortcut: g f">
+                    <a href="/feeds" data-page="feeds">Feeds
+
+                    </a>
+                    <a href="/subscribe" title="Keyboard Shortcut: +" aria-label="Add feed">
+                        (+)
+                    </a>
+                </li>
+                <li title="Keyboard Shortcut: g c">
+                    <a href="/categories" data-page="categories">Categories</a>
+                </li>
+                <li title="Keyboard Shortcut: /">
+                    <a href="/search" data-page="search">Search</a>
+                </li>
+                <li title="Keyboard Shortcut: g s">
+                    <a href="/settings" data-page="settings">Settings</a>
+                </li>
+
+                <li>
+                    <a href="/logout" title="Logged in as admin">Logout</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+    <section class="entry" data-id="3519" aria-labelledby="page-header-title">
+        <header class="entry-header">
+            <h1 id="page-header-title" dir="auto">
+                <a href="https://www.gamingonlinux.com/2024/06/kubuntu-focus-announce-the-focus-ir14-gen-2-and-ir16-gen-2-laptops/"
+                    target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Miniflux Custom CSS Theme Sample Page - This headline is intentionally long to span multiple lines so the line-hight can be checked</a>
+            </h1>
+
+            <div class="entry-actions">
+                <ul>
+                    <li>
+                        <button class="page-button" title="Change entry status" data-toggle-status="true"
+                            data-label-loading="Saving…" data-label-unread="Unread" data-label-read="Read"
+                            data-toast-unread="Marked as unread" data-toast-read="Marked as read" data-value="read"><svg
+                                class="icon" aria-hidden="true">
+                                <use xlink:href="/icon/sprite.svg#icon-unread"></use>
+                            </svg><span class="icon-label">Unread</span></button>
+                    </li>
+                    <li>
+                        <button class="page-button" data-toggle-bookmark="true" data-bookmark-url="/entry/bookmark/3519"
+                            data-label-loading="Saving…" data-label-star="Star" data-label-unstar="Unstar"
+                            data-toast-star="Starred" data-toast-unstar="Unstarred" data-value="unstar"><svg
+                                class="icon" aria-hidden="true">
+                                <use xlink:href="/icon/sprite.svg#icon-star"></use>
+                            </svg><span class="icon-label">Star</span></button>
+                    </li>
+
+
+                    <li>
+                        <a href="/entry/share/3519" class="page-link" title="Share this entry" data-share-status="share"
+                            target="_blank"><svg class="icon" aria-hidden="true">
+                                <use xlink:href="/icon/sprite.svg#icon-share"></use>
+                            </svg><span class="icon-label">Share</span></a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.gamingonlinux.com/2024/06/kubuntu-focus-announce-the-focus-ir14-gen-2-and-ir16-gen-2-laptops/"
+                            class="page-link" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"
+                            data-original-link="true"><svg class="icon" aria-hidden="true">
+                                <use xlink:href="/icon/sprite.svg#icon-external-link"></use>
+                            </svg><span class="icon-label">External link</span></a>
+                    </li>
+                    <li>
+                        <button class="page-button" title="Fetch original content" data-fetch-content-entry="true"
+                            data-fetch-content-url="/entry/download/3519" data-label-loading="Loading…"><svg
+                                class="icon" aria-hidden="true">
+                                <use xlink:href="/icon/sprite.svg#icon-scraper"></use>
+                            </svg><span class="icon-label">Download</span></button>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="entry-meta" dir="auto">
+                <span class="entry-website">
+
+                    <img src="/feed/icon/6" width="16" height="16" loading="lazy" alt="GamingOnLinux Latest Articles">
+
+
+                    <a href="/feed/7/entries">GamingOnLinux Latest Articles</a>
+
+                </span>
+
+                <span class="entry-author">
+
+                    – <em>Liam Dawe</em>
+
+                </span>
+
+
+                <span class="category">
+                    <a href="/category/3/entries">Gaming</a>
+                </span>
+
+            </div>
+
+            <div class="entry-tags">
+                Tags:
+                <a href="/tags/Hardware/entries/all"><strong>Hardware</strong></a>, <a
+                    href="/tags/Misc/entries/all"><strong>Misc</strong></a>, <a
+                    href="/tags/New%2520Release/entries/all"><strong>New Release</strong></a>
+            </div>
+
+            <div class="entry-date">
+
+                <time datetime="2024-06-13 11:44:50" title="2024-06-13 11:44:50">3 hours ago</time>
+
+
+            </div>
+        </header>
+    </section>
+
+
+    <main id="main">
+
+
+
+        <div class="pagination-entry-top">
+
+            <div class="pagination">
+                <div class="pagination-prev ">
+
+                    <a href="/unread/entry/3525"
+                        title="Sonic Dream Team gets challenging endgame mission in latest update" data-page="previous"
+                        rel="prev">Previous</a>
+
+                </div>
+
+                <div class="pagination-next ">
+
+                    <a href="/unread/entry/3524"
+                        title="Metal Gear Solid Delta's classic visual filter usable with either control style, Konami confirms"
+                        data-page="next" rel="next">Next</a>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <article class="entry-content gesture-nav-swipe" dir="auto">
+
+
+            <header>
+                <h1>Main Heading</h1>
+                <h2>Subheading Level 2</h2>
+                <h3>Subheading Level 3</h3>
+            </header>
+
+            <section>
+                <h2>Text Elements</h2>
+                <p>This is a paragraph of text. Here is a <strong>bold</strong> word, an <em>italicised</em> word,
+                    and a <a href="#">hyperlink</a>.</p>
+
+                <h3>Lists</h3>
+                <h4>Ordered List</h4>
+                <ol>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+
+                <h4>Unordered List</h4>
+                <ul>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ul>
+
+                <h4>Blockquote</h4>
+                <blockquote>
+                    This is a blockquote. It is used to indicate the quotation of a large section of text from
+                    another source.
+                </blockquote>
+
+                <aside>
+                    <p>This is an aside. It is typically used to display information that is related to the main
+                        content.</p>
+                </aside>
+
+                <footer>
+                    <p>This is the footer. It often contains information like copyright, privacy policy links, etc.
+                    </p>
+                </footer>
+
+                <h4>Preformatted Text</h4>
+                <pre>
+                    This is preformatted text.
+                    It preserves      spaces and
+                    line breaks.
+                </pre>
+
+                <h4>Details/Summary</h4>
+                <details>
+                    <summary>Click to see more details</summary>
+                    <p>Here is some additional information that can be revealed or hidden by clicking.</p>
+                </details>
+
+                <h4>Address</h4>
+                <address>
+                    Written by John Doe.<br>
+                    Visit us at:<br>
+                    Example.com<br>
+                    Box 564, Disneyland<br>
+                    USA
+                </address>
+
+                <h4>Horizontal Rule</h4>
+                <hr>
+            </section>
+
+            <section>
+                <h2>Tabular Data</h2>
+                <table>
+                    <caption>Sample Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Header 1</th>
+                            <th>Header 2</th>
+                            <th>Header 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data 1</td>
+                            <td>Data 2</td>
+                            <td>Data 3</td>
+                        </tr>
+                        <tr>
+                            <td>Data 4</td>
+                            <td>Data 5</td>
+                            <td>Data 6</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>Inline Code</h4>
+                <p>Here is some <code>inline code</code> in a paragraph.</p>
+
+                <h4>HTML Comments</h4>
+                <!-- This is an HTML comment. It will not be displayed in the browser. -->
+            </section>
+
+            <section>
+                <h2>Embedded Content</h2>
+
+                <h3>Images</h3>
+                <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+                <h3>Picture</h3>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="https://via.placeholder.com/300">
+                    <img src="https://via.placeholder.com/600" alt="Responsive Image">
+                </picture>
+
+                <h3>Figure and Figcaption</h3>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    <figcaption>This is a caption for the image.</figcaption>
+                </figure>
+
+                <h3>Audio</h3>
+                <audio controls>
+                    <source src="audio-file.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <h3>Video</h3>
+                <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <h3>Canvas</h3>
+                <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+                    Your browser does not support the HTML5 canvas tag.
+                </canvas>
+
+                <h3>Meter</h3>
+                <meter value="0.6">60%</meter>
+
+                <h3>Progress</h3>
+                <progress value="70" max="100">70%</progress>
+
+                <h3>Inline SVG</h3>
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+                </svg>
+
+                <h3>IFrame</h3>
+                <iframe src="https://www.example.com" width="300" height="200" title="Example IFrame"></iframe>
+
+                <h3>Embed</h3>
+                <embed src="https://www.example.com" width="300" height="200">
+
+                <h3>Object</h3>
+                <object data="https://www.example.com" width="300" height="200"></object>
+            </section>
+
+            <section>
+                <h2>Form Elements</h2>
+
+                <h3>Input Fields</h3>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"><br><br>
+
+                    <h4>Select Menus</h4>
+                    <label for="cars">Choose a car:</label>
+                    <select id="cars" name="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select><br><br>
+
+                    <h4>Checkboxes</h4>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I have a bike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> I have a car</label><br>
+
+                    <h4>Radio Buttons</h4>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+
+                    <h4>Textareas</h4>
+                    <label for="story">Story:</label>
+                    <textarea id="story" name="story" rows="4" cols="50">
+                    Once upon a time...
+                    </textarea><br><br>
+
+                    <h4>HTML5 Inputs</h4>
+                    <label for="bday">Birthday:</label>
+                    <input type="date" id="bday" name="bday"><br><br>
+
+                    <label for="appt">Select a time:</label>
+                    <input type="time" id="appt" name="appt"><br><br>
+
+                    <label for="volume">Volume (between 0 and 50):</label>
+                    <input type="range" id="volume" name="volume" min="0" max="50"><br><br>
+
+                    <label for="favcolor">Favourite Colour:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+                    <h4>Action Buttons</h4>
+                    <button type="button">Click Me!</button>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </section>
+
+        </article>
+
+
+
+
+        <div class="pagination-entry-bottom">
+
+            <div class="pagination">
+                <div class="pagination-prev ">
+
+                    <a href="/unread/entry/3525"
+                        title="Sonic Dream Team gets challenging endgame mission in latest update" data-page="previous"
+                        rel="prev">Previous</a>
+
+                </div>
+
+                <div class="pagination-next ">
+
+                    <a href="/unread/entry/3524"
+                        title="Metal Gear Solid Delta's classic visual filter usable with either control style, Konami confirms"
+                        data-page="next" rel="next">Next</a>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+    <template id="keyboard-shortcuts">
+        <div id="modal-left">
+            <button class="btn-close-modal" aria-label="Close">x</button>
+            <h3 tabindex="-1" id="dialog-title">Keyboard Shortcuts</h3>
+
+            <div class="keyboard-shortcuts">
+                <p>Sections Navigation</p>
+                <ul>
+                    <li>Go to unread = <strong>g + u</strong></li>
+                    <li>Go to starred = <strong>g + b</strong></li>
+                    <li>Go to history = <strong>g + h</strong></li>
+                    <li>Go to feeds = <strong>g + f</strong></li>
+                    <li>Go to categories = <strong>g + c</strong></li>
+                    <li>Go to settings = <strong>g + s</strong></li>
+                    <li>Show keyboard shortcuts = <strong>?</strong></li>
+                    <li>Add feed = <strong>+</strong></li>
+                </ul>
+
+                <p>Items Navigation</p>
+                <ul>
+                    <li>Go to previous item = <strong>p</strong>, <strong>k</strong>, <strong>⏴</strong></li>
+                    <li>Go to next item = <strong>n</strong>, <strong>j</strong>, <strong>⏵</strong></li>
+                    <li>Go to feed = <strong>F</strong></li>
+                    <li>Go to top item = <strong>g + g</strong></li>
+                    <li>Go to bottom item = <strong>G</strong></li>
+                </ul>
+
+                <p>Pages Navigation</p>
+                <ul>
+                    <li>Go to previous page = <strong>h</strong></li>
+                    <li>Go to next page = <strong>l</strong></li>
+                </ul>
+
+                <p>Actions</p>
+                <ul>
+                    <li>Open selected item = <strong>o</strong>, <strong>Enter</strong></li>
+                    <li>Open original link = <strong>v</strong></li>
+                    <li>Open original link in current tab = <strong>V</strong></li>
+                    <li>Open comments link = <strong>c</strong></li>
+                    <li>Open comments link in current tab = <strong>C</strong></li>
+                    <li>Toggle read/unread, focus next = <strong>m</strong></li>
+                    <li>Toggle read/unread, focus previous = <strong>M</strong></li>
+                    <li>Mark current page as read = <strong>A</strong></li>
+                    <li>Download original content = <strong>d</strong></li>
+                    <li>Toggle starred = <strong>f</strong></li>
+                    <li>Save entry = <strong>s</strong></li>
+                    <li>Toggle open/close entry attachments = <strong>a</strong></li>
+                    <li>Scroll item to top = <strong>z + t</strong></li>
+                    <li>Refresh all feeds in the background = <strong>R</strong></li>
+                    <li>Remove this feed = <strong>#</strong></li>
+                    <li>Set focus on search form = <strong>/</strong></li>
+                    <li>Close modal dialog = <strong>Esc</strong></li>
+                </ul>
+            </div>
+        </div>
+    </template>
+
+    <template id="icon-read"><svg class="icon" aria-hidden="true">
+            <use xlink:href="/icon/sprite.svg#icon-read"></use>
+        </svg></template>
+    <template id="icon-unread"><svg class="icon" aria-hidden="true">
+            <use xlink:href="/icon/sprite.svg#icon-unread"></use>
+        </svg></template>
+    <template id="icon-star"><svg class="icon" aria-hidden="true">
+            <use xlink:href="/icon/sprite.svg#icon-star"></use>
+        </svg></template>
+    <template id="icon-unstar"><svg class="icon" aria-hidden="true">
+            <use xlink:href="/icon/sprite.svg#icon-unstar"></use>
+        </svg></template>
+    <template id="icon-save"><svg class="icon" aria-hidden="true">
+            <use xlink:href="/icon/sprite.svg#icon-save"></use>
+        </svg></template>
+
+    <div id="toast-wrapper" role="alert" aria-live="assertive" aria-atomic="true">
+        <span id="toast-msg"></span>
+    </div>
+
+
+</body>
+
+</html>
